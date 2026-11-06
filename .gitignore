@@ -35,3 +35,7 @@ UPCOMING_CHANGELOG.md
 logs/
 *.bun-build
 tsconfig.tsbuildinfo
+
+# Sensitive code and related test
+/packages/http-recorder/src/redaction/secrets.ts
+/packages/http-recorder/test/redaction.test.ts
